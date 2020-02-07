@@ -1,0 +1,24 @@
+#develop modules
+node_modules/
+
+
+#project draft files
+resource/
+
+
+#develop codes
+src/
+
+
+#gulp
+gulp/
+# gulpfile.babel.js
+
+
+
+# package.json
+# yarn.lock
+# .gitignore
+# .babelrc
+# .browserslistrc
+# .prettierrc
