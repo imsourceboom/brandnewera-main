@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detaction" content="telephone=no, address=no, email=no">
+    <meta name="title" content="BNE">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta property="og:title" content="BNE">
+    <meta property="og:url" content="https://bne.io/">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/assets/images/favicon/icon-512px.png">
+    <meta property="og:type" content="website">
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicon/icon-144px.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/images/favicon/icon-512px.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon/icon-192px.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/images/favicon/icon-144px.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <title>BNE : 회원가입</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script crossorigin="anonymous" src="https://cdn.polyfill.io/v2/polyfill.min.js" async defer> </script>
+    <script src="/js/app.js" defer></script>
+  </head>
+  <body id="body"><a class="top--button" data-scroll href="#body"></a>
+    <div id="mobile-container">
+      <div class="head-wrapper"><a class="logo" href="/index.html"><img src="/assets/images/logo.svg" alt="logo"></a>
+        <div class="right">
+          <button class="language" type="button"><img src="https://icongr.am/clarity/world.svg?size=26&amp;color=000000" alt="language"></button>
+          <button class="close" type="button"><img src="https://icongr.am/clarity/times.svg?size=28&amp;color=000000" alt="close"></button>
+        </div>
+      </div>
+      <div class="sign-state-wrapper">
+        <ul>
+          <!-- 로그인 전-->
+          <!-- 로그인 후-->
+          <li><a href="https://bne-shop.netlify.com">쇼핑</a></li>
+          <li><a href="/index.html">로그아웃</a></li>
+        </ul>
+        <!-- 로그인 성공 시 active class 추가-->
+        <div class="signin-box active"> <a href="/html/mypage.html">반갑습니다. 홍길동님<b>내 정보</b></a></div>
+      </div>
+      <div class="menu-wrapper">
+        <ul>
+          <li><a href="#index-contents-container" data-scroll>회사소개</a></li>
+          <li><a href="">대시보드</a></li>
+          <li><a href="#index-about-container" data-scroll>문의</a></li>
+        </ul>
+      </div>
+    </div>
+    <header id="header">
+      <div class="container-1000"><a class="logo" href="/index.html"><img src="/assets/images/logo.svg" alt="logo"></a>
+        <button class="hamburger hamburger--squeeze js-hamburger" type="button">
+          <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+          </div>
+        </button>
+        <nav>
+          <ul>
+            <li> <a href="#index-contents-container" data-scroll>회사소개</a></li>
+            <li><a href="">대시보드</a></li>
+            <li><a href="#index-about-container" data-scroll>문의</a></li>
+          </ul>
+        </nav>
+        <div class="another-wrapper">
+          <div class="sign-state-box">
+            <!-- 로그인 전--><a href="/html/sign-in.html">로그인</a><a href="/html/sign-up.html">회원가입</a>
+            <!-- 로그인 후-->
+          </div>
+          <div class="shop-and-world-box"><a href="https://bne-shop.netlify.com" target="_black">쇼핑</a>
+            <button type="button"><img src="https://icongr.am/clarity/world.svg?size=26&amp;color=666666" alt="language"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <section id="sign-up">
+        <article>
+          <form action="">
+            <div class="button-check-group">
+              <div class="input-group">
+                <div class="input-wrapper">
+                  <input class="input text-input" type="text" required="required"/>
+                  <div class="placeholder">아이디</div>
+                </div>
+              </div>
+              <button class="input-button" type="button">중복확인</button>
+            </div>
+            <div class="input-group">
+              <div class="input-wrapper">
+                <input class="input text-input" type="password" required="required"/>
+                <div class="placeholder">비밀번호</div>
+              </div>
+              <div class="input-wrapper">
+                <input class="input text-input" type="password" required="required"/>
+                <div class="placeholder">비밀번호확인</div>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-wrapper">
+                <input class="input text-input" type="text" required="required"/>
+                <div class="placeholder">성</div>
+              </div>
+              <div class="input-wrapper">
+                <input class="input text-input" type="text" required="required"/>
+                <div class="placeholder">이름</div>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-wrapper">
+                <input class="input text-input" type="email" required="required"/>
+                <div class="placeholder">이메일</div>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-wrapper">
+                <input class="input text-input" type="tel" required="required" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"/>
+                <div class="placeholder">휴대폰번호</div>
+              </div>
+            </div>
+            <select class="select-group">
+              <option disabled="disabled" selected="selected">국가선택</option>
+              <option>한국</option>
+              <option>일본</option>
+              <option>중국</option>
+              <option>미국</option>
+            </select>
+            <div class="button-check-group post">
+              <div class="input-group">
+                <div class="input-wrapper">
+                  <input class="input text-input" type="text" required="required"/>
+                  <div class="placeholder"> </div>
+                </div>
+              </div>
+              <button class="input-button" type="button">주소검색</button>
+            </div>
+            <div class="input-group">
+              <div class="input-wrapper">
+                <input class="input text-input" type="text" required="required"/>
+                <div class="placeholder">일반주소</div>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-wrapper">
+                <input class="input text-input" type="text"/>
+                <div class="placeholder">상세주소</div>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-wrapper">
+                <input class="input text-input" type="text"/>
+                <div class="placeholder">비트코인 주소</div>
+              </div>
+            </div>
+            <div class="button-check-group">
+              <div class="input-group">
+                <div class="input-wrapper">
+                  <input class="input text-input" type="text"/>
+                  <div class="placeholder">추천인 아이디</div>
+                </div>
+              </div>
+              <button class="input-button" type="button">검색</button>
+            </div>
+            <div class="sponsor-group">
+              <div class="title">후원인 선택</div>
+              <div class="radio-group">
+                <label class="radio-wrapper" for="sponsor-auto">
+                  <input type="radio" id="sponsor-auto" name="sponsor" hidden><span>자동</span>
+                </label>
+                <label class="radio-wrapper" for="sponsor-left">
+                  <input type="radio" id="sponsor-left" name="sponsor" hidden><span>왼쪽</span>
+                </label>
+                <label class="radio-wrapper" for="sponsor-right">
+                  <input type="radio" id="sponsor-right" name="sponsor" hidden><span>오른쪽</span>
+                </label>
+              </div>
+            </div>
+            <button class="input-button sign-up-btn" type="button">회원가입</button>
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="container-1000">
+        <p class="mb-07">©2018 BNE. All Rights Reserved.</p>
+        <p class="mb-2">Unit 706, 7/F., South Seas Centre, Tower 2, 75 Mody Road, Tsimshatsui, Kowloon, Hong Kong</p>
+        <p> <a href="">이용약관</a><span>support@bne.io</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
