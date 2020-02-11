@@ -40,6 +40,23 @@
           <button class="close" type="button"><img src="https://icongr.am/clarity/times.svg?size=28&amp;color=000000" alt="close"></button>
         </div>
       </div>
+      <div class="sign-state-wrapper">
+        <ul>
+          <!-- 로그인 전-->
+          <!-- 로그인 후-->
+          <li><a href="https://bne-shop.netlify.com">쇼핑</a></li>
+          <li><a href="/index.html">로그아웃</a></li>
+        </ul>
+        <!-- 로그인 성공 시 active class 추가-->
+        <div class="signin-box active"> <a href="/html/mypage.html">반갑습니다. 홍길동님<b>내 정보</b></a></div>
+      </div>
+      <div class="menu-wrapper">
+        <ul>
+          <li><a href="#index-contents-container" data-scroll>회사소개</a></li>
+          <li><a href="">대시보드</a></li>
+          <li><a href="#index-about-container" data-scroll>문의</a></li>
+        </ul>
+      </div>
     </div>
     <header id="header">
       <div class="container-1000"><a class="logo" href="/index.html"><img src="/assets/images/logo.svg" alt="logo"></a>
@@ -50,9 +67,9 @@
         </button>
         <nav>
           <ul>
-            <li>회사소개</li>
-            <li>대시보드</li>
-            <li>문의</li>
+            <li> <a href="#index-contents-container" data-scroll>회사소개</a></li>
+            <li><a href="">대시보드</a></li>
+            <li><a href="#index-about-container" data-scroll>문의</a></li>
           </ul>
         </nav>
         <div class="another-wrapper">
@@ -103,7 +120,7 @@
             </div>
           </div>
         </article>
-        <div class="contents-container">
+        <div id="index-contents-container">
           <figure class="bg-box bg-001"><img src="/assets/images/bonus/bonus-bg-001.png" alt=""></figure>
           <figure class="bg-box bg-002"><img src="/assets/images/bonus/bonus-bg-002.png" alt=""></figure>
           <figure class="bg-box bg-003"><img src="/assets/images/bonus/bonus-bg-003.png" alt=""></figure>
@@ -404,9 +421,21 @@
             </div>
           </article>
         </div>
-        <div class="about-container"></div>
+        <div id="index-about-container">
+          <div class="about-wrapper">
+            <h1>문 의</h1>
+            <div class="line"></div>
+            <p>support@bne.io</p>
+          </div>
+        </div>
       </section>
     </main>
-    <footer id="footer"></footer>
+    <footer id="footer">
+      <div class="container-1000">
+        <p class="mb-07">©2018 BNE. All Rights Reserved.</p>
+        <p class="mb-2">Unit 706, 7/F., South Seas Centre, Tower 2, 75 Mody Road, Tsimshatsui, Kowloon, Hong Kong</p>
+        <p> <a href="">이용약관</a><span>support@bne.io</span></p>
+      </div>
+    </footer>
   </body>
 </html>
