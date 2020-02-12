@@ -107,20 +107,6 @@
             </div>
             <div class="input-group">
               <div class="input-wrapper">
-                <input class="input text-input" type="password" required="required"/>
-                <div class="placeholder">현재 비밀번호 확인</div>
-              </div>
-              <div class="input-wrapper">
-                <input class="input text-input" type="password" required="required"/>
-                <div class="placeholder">새 비밀번호</div>
-              </div>
-              <div class="input-wrapper">
-                <input class="input text-input" type="password" required="required"/>
-                <div class="placeholder">새 비밀번호 확인</div>
-              </div>
-            </div>
-            <div class="input-group">
-              <div class="input-wrapper">
                 <input class="input text-input" type="text" value="홍" required="required"/>
                 <div class="placeholder">성</div>
               </div>
@@ -151,7 +137,7 @@
             <div class="button-check-group post">
               <div class="input-group">
                 <div class="input-wrapper">
-                  <input class="input text-input" type="text" disabled="disabled"/>
+                  <input class="input text-input" type="text" required="required" disabled="disabled"/>
                   <div class="placeholder"> </div>
                 </div>
               </div>
@@ -190,6 +176,20 @@
                 </div>
               </div>
               <button class="input-button" type="button">검색</button>
+            </div>
+            <div class="sponsor-group">
+              <div class="title">후원인 선택</div>
+              <div class="radio-group">
+                <label class="radio-wrapper" for="sponsor-auto">
+                  <input type="radio" id="sponsor-auto" name="sponsor" hidden><span>자동</span>
+                </label>
+                <label class="radio-wrapper" for="sponsor-left">
+                  <input type="radio" id="sponsor-left" name="sponsor" hidden><span>왼쪽</span>
+                </label>
+                <label class="radio-wrapper" for="sponsor-right">
+                  <input type="radio" id="sponsor-right" name="sponsor" hidden><span>오른쪽</span>
+                </label>
+              </div>
             </div>
             <button class="input-button mt-1" type="button">수정하기</button>
           </article>
