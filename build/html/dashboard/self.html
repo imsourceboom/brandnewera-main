@@ -83,28 +83,28 @@
     </header>
     <main id="main">
       <section class="self" id="dashboard">
-        <div class="container-1000">
-          <nav class="menu-wrapper">
-            <ul>
-              <li><a href="/html/dashboard/notice.html">공지사항</a></li>
-              <li><a href="/html/dashboard/genealogy.html">계보도</a></li>
-              <li><a href="/html/dashboard/self.html">본인매출내역</a></li>
-              <li><a href="/html/dashboard/lower.html">하위매출내역</a></li>
-              <li><a href="/html/dashboard/closing.html">마감매출내역</a></li>
-              <li><a href="/html/dashboard/allowance.html">수당조회</a></li>
-              <li><a href="/html/dashboard/reference.html">참고링크</a></li>
-              <li><a href="http://richway.io/pdf/plan_en.pdf" target="_blank">보상플랜</a></li>
-              <li></li>
-            </ul>
-          </nav>
-          <article class="contents-wrapper">
-            <hgroup class="title">
-              <h1>본인매출내역</h1><span>
-                <p>주문일자를 클릭하면 상품별 주문내역이 표시됩니다.</p>
-                <p>기간 선택의 이전과 다음을 클릭시 선택된 해당 기간만큼 이동합니다.</p></span>
-            </hgroup>
-            <div class="contents-wrap">
-              <form action="">
+        <form action="">
+          <div class="container-1000">
+            <nav class="menu-wrapper">
+              <ul>
+                <li><a href="/html/dashboard/notice.html">공지사항</a></li>
+                <li><a href="/html/dashboard/genealogy.html">계보도</a></li>
+                <li><a href="/html/dashboard/self.html">본인매출내역</a></li>
+                <li><a href="/html/dashboard/lower.html">하위매출내역</a></li>
+                <li><a href="/html/dashboard/closing.html">마감매출내역</a></li>
+                <li><a href="/html/dashboard/allowance.html">수당조회</a></li>
+                <li><a href="/html/dashboard/reference.html">참고링크</a></li>
+                <li><a href="http://richway.io/pdf/plan_en.pdf" target="_blank">보상플랜</a></li>
+                <li></li>
+              </ul>
+            </nav>
+            <article class="contents-wrapper">
+              <hgroup class="title">
+                <h1>본인매출내역</h1><span>
+                  <p>주문일자를 클릭하면 상품별 주문내역이 표시됩니다.</p>
+                  <p>기간 선택의 이전과 다음을 클릭시 선택된 해당 기간만큼 이동합니다.</p></span>
+              </hgroup>
+              <div class="contents-wrap">
                 <div class="condition-search-bundle">
                   <div class="choose-box">
                     <div class="title">기간선택</div>
@@ -142,10 +142,831 @@
                     </div>
                   </div>
                 </div>
-              </form>
-            </div>
-          </article>
-        </div>
+                <table class="table-basic--style desk">
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>주문번호</th>
+                      <th>주문일자</th>
+                      <th>플랜</th>
+                      <th>구분</th>
+                      <th>현금결제</th>
+                      <th>온라인입금</th>
+                      <th>신용카드</th>
+                      <th>매출합</th>
+                      <th>CV합계</th>
+                      <th>상태</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- tr.empty-wraptd(colspan="11") 정보가 없습니다.
+                    -->
+                    <tr>
+                      <td>
+                        <p>1</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>2</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>3</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>4</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>5</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>6</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>7</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>8</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>9</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>10</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="table-basic--style mobile">
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>주문번호</th>
+                      <th>주문일자</th>
+                      <th>플랜</th>
+                      <th>구분</th>
+                      <!-- 빈 컬럼-->
+                      <th></th>
+                    </tr>
+                    <tr>
+                      <th>현금결제</th>
+                      <th>온라인입금</th>
+                      <th>신용카드</th>
+                      <th>매출합</th>
+                      <th>CV합계</th>
+                      <th>상태</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- tr.empty-wraptd(colspan="11") 정보가 없습니다.
+                    -->
+                    <tr>
+                      <td>
+                        <p>1</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <!-- 빈 컬럼-->
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>2</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <!-- 빈 컬럼-->
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>3</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <!-- 빈 컬럼-->
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>4</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <!-- 빈 컬럼-->
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>5</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <!-- 빈 컬럼-->
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>6</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <!-- 빈 컬럼-->
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>7</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <!-- 빈 컬럼-->
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>8</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <!-- 빈 컬럼-->
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>9</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <!-- 빈 컬럼-->
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>10</p>
+                      </td>
+                      <td> 
+                        <p>200128001</p>
+                      </td>
+                      <td> 
+                        <p>2020-01-28</p>
+                      </td>
+                      <td>
+                        <p>일반</p>
+                      </td>
+                      <td>
+                        <p>신규</p>
+                      </td>
+                      <!-- 빈 컬럼-->
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>0</p>
+                      </td>
+                      <td> 
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td> 
+                        <p>0</p>
+                      </td>
+                      <td>
+                        <p>$<span class="price">3000</span></p>
+                      </td>
+                      <td>
+                        <p class="price">2000<span>CV</span></p>
+                      </td>
+                      <td>
+                        <p>대기</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="total-wrap">
+                  <div class="box">
+                    <ul>
+                      <li></li>
+                      <li><b>온라인 입금</b></li>
+                      <li><b>매출합</b></li>
+                      <li><b>CV합계</b></li>
+                    </ul>
+                    <ul>
+                      <li> <b>합계</b></li>
+                      <li> 
+                        <p>$<span class="price">10000</span></p>
+                      </li>
+                      <li> 
+                        <p>$<span class="price">10000</span></p>
+                      </li>
+                      <li>
+                        <p class="price">99999<span>CV</span></p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="pagination-wrapper">
+                  <ul>
+                    <li class="first"></li>
+                    <li class="prev"></li>
+                    <li class="active">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li class="next"></li>
+                    <li class="last"></li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </form>
       </section>
     </main>
     <footer id="footer">
