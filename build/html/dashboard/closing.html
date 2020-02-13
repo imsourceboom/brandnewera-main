@@ -24,7 +24,7 @@
     <meta name="msapplication-TileImage" content="/assets/images/favicon/icon-144px.png">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
-    <title>BNE : 계보도</title>
+    <title>BNE : 마감매출현황</title>
     <link rel="stylesheet" href="/css/main.css">
     <script crossorigin="anonymous" src="https://cdn.polyfill.io/v2/polyfill.min.js" async defer> </script>
     <script src="/js/app.js" defer></script>
@@ -81,7 +81,7 @@
       </div>
     </header>
     <main id="main">
-      <section class="genealogy" id="dashboard">
+      <section class="closing" id="dashboard">
         <div class="container-1000">
           <nav class="menu-wrapper">
             <ul>
@@ -98,47 +98,11 @@
           </nav>
           <article class="contents-wrapper">
             <hgroup class="title">
-              <h1>계보도</h1><span>
-                <p>조직도 압축시 한개의 라인인 경우 압축에서 제외됩니다.</p></span>
+              <h1>마감매출현황</h1><span>
+                <p>마감일자를 클릭하면 하위 상세 내역이 하단에 표시됩니다.</p>
+                <p>기간 선택의 이전과 다음을 클릭시 선택된 해당 기간만큼 이동합니다.</p></span>
             </hgroup>
-            <div class="contents-wrap">
-              <div class="bundle">
-                <div class="box">
-                  <div class="name">후원인 계보도</div>
-                  <div class="pack">
-                    <p>회원(사업자)님을 기준으로 후원인을 검색할 수 있습니다.</p>
-                    <div class="input-box"><span>단계</span>
-                      <input type="number" placeholder="0">
-                      <button><img src="https://icongr.am/feather/search.svg?size=18&amp;color=888888" alt="search"></button>
-                    </div>
-                    <div class="annotation">* 0을 입력하면 조직도 전체를 확인할 수 있습니다.</div>
-                    <button class="trigger-btn visibility" type="button"></button>
-                    <div class="toggle-box">
-                      <h3 class="title">좌우형 후원 조직도</h3>
-                      <div class="description">(예시) 단계 '2'를 입력한 경우 하위 2단계까지 나타내는 조직도 입니다.</div><img src="/assets/images/dashboard/genealogy-001.png" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="bundle">
-                <div class="box">
-                  <div class="name">추천인 계보도</div>
-                  <div class="pack">
-                    <p>회원(사업자)님을 기준으로 추천인을 검색할 수 있습니다.</p>
-                    <div class="input-box"><span>단계</span>
-                      <input type="number" placeholder="0">
-                      <button><img src="https://icongr.am/feather/search.svg?size=18&amp;color=888888" alt="search"></button>
-                    </div>
-                    <div class="annotation">* 0을 입력하면 조직도 전체를 확인할 수 있습니다.</div>
-                    <button class="trigger-btn visibility" type="button"></button>
-                    <div class="toggle-box">
-                      <h3 class="title">좌우형 후원 조직도</h3>
-                      <div class="description">(예시) 단계 '2'를 입력한 경우 하위 2단계까지 나타내는 조직도 입니다.</div><img src="/assets/images/dashboard/genealogy-002.png" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="contents-wrap"></div>
           </article>
         </div>
       </section>
