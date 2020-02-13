@@ -25,6 +25,7 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
     <title>BNE : 하위매출내역</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="/css/main.css">
     <script crossorigin="anonymous" src="https://cdn.polyfill.io/v2/polyfill.min.js" async defer> </script>
     <script src="/js/app.js" defer></script>
@@ -102,7 +103,33 @@
                 <p>하위회원을 클릭하면 상세 매출내역이 표시됩니다.</p>
                 <p>기간 선택의 이전과 다음을 클릭시 선택된 해당 기간만큼 이동합니다.</p></span>
             </hgroup>
-            <div class="contents-wrap"></div>
+            <div class="contents-wrap">
+              <form action="">
+                <div class="condition-search-bundle">
+                  <div class="choose-box">
+                    <div class="title">기간선택</div>
+                    <div class="description">
+                      <select class="select-group">
+                        <option disabled="disabled" selected="selected">기간선택</option>
+                        <option>오늘</option>
+                        <option>이번주</option>
+                        <option>이번달</option>
+                        <option>올해</option>
+                      </select>
+                      <button class="input-button" type="button">이전</button>
+                      <button class="input-button" type="button">다음</button>
+                    </div>
+                  </div>
+                  <div class="enter-box">
+                    <div class="title">기간입력</div>
+                    <div class="description">
+                      <input class="range-date" type="text">
+                      <button class="search"><img src="https://icongr.am/feather/search.svg?size=20&amp;color=888888" alt="search"></button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
           </article>
         </div>
       </section>
