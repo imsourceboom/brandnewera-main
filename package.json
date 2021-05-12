@@ -34,6 +34,6 @@
         "flatpickr": "4.6.3",
         "reset-css": "^5.0.1",
         "smooth-scroll": "^16.1.0",
-        "swiper": "^5.2.0"
+        "swiper": "^6.5.1"
     }
 }
